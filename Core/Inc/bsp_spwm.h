@@ -10,7 +10,7 @@
 
 #define PI          (3.1415926f) // ¦Ð
 #define PI_X2       (2.0f*PI)    // 2¦Ð
-#define PI_X2_DIV3  (PI_X2/3.0f) // (2/3)¦Ð
+
 
 #define  MODULATED_FREQ_Hz    5
 // ÔØ²¨(Èý½Ç²¨)ÆµÂÊ
@@ -18,11 +18,15 @@
 
 #define  RATIO                (float)(CARRIER_FREQ_Hz/MODULATED_FREQ_Hz)
 
-#define  MODULATION_RATIO      1.0f //
 
-#define  TIM_HALF_PERIOD       (float)((MOTOR1_PWM_PERIOD_COUNT+1)/2)
+#define SIN_AMPMAX             255
 
-#define  PI_X2DIVN             (PI_X2/RATIO)
+typedef enum {
+    CCW,
+    CW,
+}MotorDir_Typedef;
 
 void config_Sinusoidal( float Fre);
+void TuneSinAmp( uint16_t Amplitude);
+void set_MotorDir(MotorDir_Typedef Dir);
 #endif //CPROJECT_BSP_SPWM_H
