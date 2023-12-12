@@ -129,16 +129,18 @@ static void TIM1_Mode_Config(void)
     /** PWM模式配置 */
     /** 配置为PWM模式1 */
     MOTOR1_TIM_OCInitStructure.OCMode = TIM_OCMODE_PWM1;
-    MOTOR1_TIM_OCInitStructure.Pulse = 2100;                         /** 默认必须要初始为0 */
+    MOTOR1_TIM_OCInitStructure.Pulse = 0;                         /** 默认必须要初始为0 */
     MOTOR1_TIM_OCInitStructure.OCPolarity = TIM_OCPOLARITY_HIGH;
     MOTOR1_TIM_OCInitStructure.OCNPolarity = TIM_OCNPOLARITY_HIGH;
-    MOTOR1_TIM_OCInitStructure.OCIdleState = TIM_OCIDLESTATE_SET;
+    MOTOR1_TIM_OCInitStructure.OCIdleState = TIM_OCIDLESTATE_RESET;
     MOTOR1_TIM_OCInitStructure.OCNIdleState = TIM_OCNIDLESTATE_RESET;
 
     HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_1);    /** 初始化通道 1 输出 PWM */
     HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_2);    /** 初始化通道 2 输出 PWM */
     HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_3);    /** 初始化通道 3 输出 PWM */
 
+    MOTOR1_TIM_OCInitStructure.Pulse = MOTOR1_PWM_PERIOD_COUNT-1;
+    HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_4);
 
     /** 开启定时器通道1输出PWM */
     HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_1);
@@ -151,6 +153,9 @@ static void TIM1_Mode_Config(void)
     /** 开启定时器通道3输出PWM */
     HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_3);
     HAL_TIMEx_PWMN_Start(&motor1_htimx_bldcm, TIM_CHANNEL_3);
+
+    /**CH4中断作为修改占空比时基 */
+    __HAL_TIM_ENABLE_IT(&motor1_htimx_bldcm,TIM_IT_CC4);
 }
 
 
@@ -165,7 +170,6 @@ void HAL_TIM_OC_MspDeInit(TIM_HandleTypeDef* htim_base)
 
     if(htim_base->Instance== MOTOR1_TIM )
     {
-        /* »ù±¾¶¨Ê±Æ÷ÍâÉèÊ±ÖÓ½ûÓÃ */
         MOTOR1_TIM_RCC_CLK_DISABLE();
 
     }

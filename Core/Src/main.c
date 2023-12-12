@@ -17,6 +17,7 @@
 #include "bsp_motor_tim.h"
 #include "bsp_usart.h"
 #include "bsp_spwm.h"
+#include "bsp_svpwm.h"
 
 //void MX_FREERTOS_Init(void);
 
@@ -62,6 +63,9 @@ uint8_t SinTable[256]={// 0 ~ ¦Ð
 
 int32_t  SamplePoint = sizeof(SinTable)/sizeof(SinTable[0]); //标准正弦波点数
 
+/**定点数据Q=15,0~32766对应浮点数据0~0.99996948 */
+
+
 /**
   * @brief  The application entry point.
   * @retval int
@@ -75,6 +79,7 @@ int main(void)
     SystemClock_Config();
     /** LED 灯初始化 */
     LED_GPIO_Config();
+    LED1_ON;
     /** 初始化 DRV8303 */
     DRV8303_Init();
     /** 初始化按键G PIO */
@@ -84,35 +89,10 @@ int main(void)
 //    USART_Config();
     TIMx_Configuration();
 
-    config_Sinusoidal(0);
-    set_MotorDir(CW);
-    /** 开启定时器通道1输出PWM */
-    HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_1);
-    HAL_TIMEx_PWMN_Start(&motor1_htimx_bldcm, TIM_CHANNEL_1);
-
-    /** 开启定时器通道2输出PWM */
-    HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_2);
-    HAL_TIMEx_PWMN_Start(&motor1_htimx_bldcm, TIM_CHANNEL_2);
-
-    /** 开启定时器通道3输出PWM */
-    HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_3);
-    HAL_TIMEx_PWMN_Start(&motor1_htimx_bldcm, TIM_CHANNEL_3);
-
-    HAL_TIM_Base_Start_IT(&motor1_htimx_bldcm);
-
-    HAL_Delay(3000);
+    HAL_Delay(1000);
     while (1)
     {
-        HAL_Delay(10);
-        config_Sinusoidal( freq += Accel );
-        if( (freq>=60) || ( freq<=-60 ) )
-        {
-            Volt_Freq = 0.2f;
-        }
-        if( (freq >= max ) || (freq <= -max))
-        {
-            freq -= Accel;
-        }
+
     }
 }
 

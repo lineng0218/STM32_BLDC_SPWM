@@ -56,10 +56,10 @@ RM = "D:\Clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spwm
+CMAKE_SOURCE_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spwm\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-spwm\cmake-build-debug\CMakeFiles C:\Users\uoc11\Desktop\STM32F407\STM32F407-spwm\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-spwm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,30 @@ Core/Src/bsp_DRV8303.s: Core/Src/bsp_DRV8303.c.s
 Core/Src/bsp_DRV8303.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.s
 .PHONY : Core/Src/bsp_DRV8303.c.s
+
+Core/Src/bsp_adc.obj: Core/Src/bsp_adc.c.obj
+.PHONY : Core/Src/bsp_adc.obj
+
+# target to build an object file
+Core/Src/bsp_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj
+.PHONY : Core/Src/bsp_adc.c.obj
+
+Core/Src/bsp_adc.i: Core/Src/bsp_adc.c.i
+.PHONY : Core/Src/bsp_adc.i
+
+# target to preprocess a source file
+Core/Src/bsp_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.i
+.PHONY : Core/Src/bsp_adc.c.i
+
+Core/Src/bsp_adc.s: Core/Src/bsp_adc.c.s
+.PHONY : Core/Src/bsp_adc.s
+
+# target to generate assembly for a file
+Core/Src/bsp_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.s
+.PHONY : Core/Src/bsp_adc.c.s
 
 Core/Src/bsp_key.obj: Core/Src/bsp_key.c.obj
 .PHONY : Core/Src/bsp_key.obj
@@ -271,6 +295,30 @@ Core/Src/bsp_spwm.s: Core/Src/bsp_spwm.c.s
 Core/Src/bsp_spwm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.s
 .PHONY : Core/Src/bsp_spwm.c.s
+
+Core/Src/bsp_svpwm.obj: Core/Src/bsp_svpwm.c.obj
+.PHONY : Core/Src/bsp_svpwm.obj
+
+# target to build an object file
+Core/Src/bsp_svpwm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj
+.PHONY : Core/Src/bsp_svpwm.c.obj
+
+Core/Src/bsp_svpwm.i: Core/Src/bsp_svpwm.c.i
+.PHONY : Core/Src/bsp_svpwm.i
+
+# target to preprocess a source file
+Core/Src/bsp_svpwm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.i
+.PHONY : Core/Src/bsp_svpwm.c.i
+
+Core/Src/bsp_svpwm.s: Core/Src/bsp_svpwm.c.s
+.PHONY : Core/Src/bsp_svpwm.s
+
+# target to generate assembly for a file
+Core/Src/bsp_svpwm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.s
+.PHONY : Core/Src/bsp_svpwm.c.s
 
 Core/Src/bsp_usart.obj: Core/Src/bsp_usart.c.obj
 .PHONY : Core/Src/bsp_usart.obj
@@ -1303,6 +1351,9 @@ help:
 	@echo ... Core/Src/bsp_DRV8303.obj
 	@echo ... Core/Src/bsp_DRV8303.i
 	@echo ... Core/Src/bsp_DRV8303.s
+	@echo ... Core/Src/bsp_adc.obj
+	@echo ... Core/Src/bsp_adc.i
+	@echo ... Core/Src/bsp_adc.s
 	@echo ... Core/Src/bsp_key.obj
 	@echo ... Core/Src/bsp_key.i
 	@echo ... Core/Src/bsp_key.s
@@ -1315,6 +1366,9 @@ help:
 	@echo ... Core/Src/bsp_spwm.obj
 	@echo ... Core/Src/bsp_spwm.i
 	@echo ... Core/Src/bsp_spwm.s
+	@echo ... Core/Src/bsp_svpwm.obj
+	@echo ... Core/Src/bsp_svpwm.i
+	@echo ... Core/Src/bsp_svpwm.s
 	@echo ... Core/Src/bsp_usart.obj
 	@echo ... Core/Src/bsp_usart.i
 	@echo ... Core/Src/bsp_usart.s

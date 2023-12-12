@@ -104,59 +104,58 @@ static uint16_t map(uint16_t sinx, uint16_t out_max)
 }
 
 
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-//  LED2_ON;
-    int32_t CCR1 = 0;
-    int32_t CCR2 = 0;
-    int32_t CCR3 = 0;
-
-    CCR1 = map(SinTable[sin1TableIndex&0xFF], HalfMax);
-    CCR1 = HalfMax + (Sin1Dir * CCR1);
-    CCR1 = (SinAmp*CCR1)/24;
-
-    CCR2 = map(SinTable[sin2TableIndex&0xFF], HalfMax);
-    CCR2 = HalfMax + (Sin2Dir * CCR2);
-    CCR2 = (SinAmp*CCR2)/24;
-
-    CCR3 = map(SinTable[sin3TableIndex&0xFF], HalfMax);
-    CCR3 = HalfMax + (Sin3Dir * CCR3);
-    CCR3 = (SinAmp*CCR3)/24;
-
-            __HAL_TIM_SetCompare(htim, TIM_CHANNEL_1, (uint16_t)CCR1);
-            __HAL_TIM_SetCompare(htim, TIM_CHANNEL_2, (uint16_t)CCR2);
-            __HAL_TIM_SetCompare(htim, TIM_CHANNEL_3, (uint16_t)CCR3);
-
-    sin1TableIndex ++;
-    sin2TableIndex ++;
-    sin3TableIndex ++;
-
-    /* Õý¸º°ëÖáÇÐ»» */
-    if( sin1TableIndex >= SamplePoint ) Sin1Dir = -1;
-    else Sin1Dir = 1;
-    if( sin2TableIndex >= SamplePoint ) Sin2Dir = -1;
-    else Sin2Dir = 1;
-    if( sin3TableIndex >= SamplePoint ) Sin3Dir = -1;
-    else Sin3Dir = 1;
-
-    if( sin1TableIndex >= 2*SamplePoint)
-        sin1TableIndex = 0;
-    if( sin2TableIndex >= 2*SamplePoint)
-        sin2TableIndex = 0;
-    if( sin3TableIndex >= 2*SamplePoint)
-        sin3TableIndex = 0;
-//  LED2_OFF;
-}
-
-
-void HAL_SYSTICK_Callback()
-{
-    static uint32_t i = 0;
-    i++;
-    if( i>=10000 )
-    {
-        i = 0;
-//    Accel = -Accel;
-       Accel = 0;
-    }
-}
+//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+//{
+////  LED2_ON;
+//    int32_t CCR1 = 0;
+//    int32_t CCR2 = 0;
+//    int32_t CCR3 = 0;
+//
+//    CCR1 = map(SinTable[sin1TableIndex&0xFF], HalfMax);
+//    CCR1 = HalfMax + (Sin1Dir * CCR1);
+//    CCR1 = (SinAmp*CCR1)/24;
+//
+//    CCR2 = map(SinTable[sin2TableIndex&0xFF], HalfMax);
+//    CCR2 = HalfMax + (Sin2Dir * CCR2);
+//    CCR2 = (SinAmp*CCR2)/24;
+//
+//    CCR3 = map(SinTable[sin3TableIndex&0xFF], HalfMax);
+//    CCR3 = HalfMax + (Sin3Dir * CCR3);
+//    CCR3 = (SinAmp*CCR3)/24  ;
+//
+//    __HAL_TIM_SetCompare(htim, TIM_CHANNEL_1, (uint16_t)CCR1);
+//    __HAL_TIM_SetCompare(htim, TIM_CHANNEL_2, (uint16_t)CCR2);
+//    __HAL_TIM_SetCompare(htim, TIM_CHANNEL_3, (uint16_t)CCR3);
+//
+//    sin1TableIndex ++;
+//    sin2TableIndex ++;
+//    sin3TableIndex ++;
+//
+//    if( sin1TableIndex >= SamplePoint ) Sin1Dir = -1;
+//    else Sin1Dir = 1;
+//    if( sin2TableIndex >= SamplePoint ) Sin2Dir = -1;
+//    else Sin2Dir = 1;
+//    if( sin3TableIndex >= SamplePoint ) Sin3Dir = -1;
+//    else Sin3Dir = 1;
+//
+//    if( sin1TableIndex >= 2*SamplePoint)
+//        sin1TableIndex = 0;
+//    if( sin2TableIndex >= 2*SamplePoint)
+//        sin2TableIndex = 0;
+//    if( sin3TableIndex >= 2*SamplePoint)
+//        sin3TableIndex = 0;
+////  LED2_OFF;
+//}
+//
+//
+//void HAL_SYSTICK_Callback()
+//{
+//    static uint32_t i = 0;
+//    i++;
+//    if( i>=10000 )
+//    {
+//        i = 0;
+////    Accel = -Accel;
+//       Accel = 0;
+//    }
+//}

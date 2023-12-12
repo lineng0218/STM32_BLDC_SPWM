@@ -9,8 +9,8 @@
 #define MOTOR1_TIM_CLK_ENABLE()         __TIM1_CLK_ENABLE()
 #define MOTOR1_TIM_RCC_CLK_DISABLE()      __HAL_RCC_TIM1_CLK_DISABLE()
 
-#define MOTOR1_TIM_IRQn                   TIM1_UP_TIM10_IRQn
-#define MOTOR1_TIM_OC_IRQHANDLER          TIM1_UP_TIM10_IRQHandler
+#define MOTOR1_TIM_IRQn                   TIM1_CC_IRQn
+#define MOTOR1_TIM_OC_IRQHANDLER          TIM1_CC_IRQHandler
 extern TIM_HandleTypeDef                  motor1_htimx_bldcm;
 
 /** 累计 TIM_Period个后产生一个更新或者中断
@@ -22,6 +22,10 @@ extern TIM_HandleTypeDef                  motor1_htimx_bldcm;
 #define MOTOR1_PWM_PRESCALER_COUNT      (0)
 
 #define MOTOR1_TIM_REPETITIONCOUNTER    1
+
+/* ÓÃÓÚ¼ÆËãÕ¼¿Õ±È */
+#define PWM_FREQUENCY                   20000
+#define PWM_PERIOD_CYCLES               (uint16_t)(168000000/PWM_FREQUENCY)
 
 /** TIM1 通道1 输出引脚 */
 #define MOTOR1_OCPWM1_PIN               GPIO_PIN_8
