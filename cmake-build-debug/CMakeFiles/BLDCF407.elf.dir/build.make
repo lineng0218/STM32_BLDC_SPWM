@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm
+CMAKE_SOURCE_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BLDCF407.elf.dir/depend.make
@@ -68,722 +68,707 @@ include CMakeFiles/BLDCF407.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BLDCF407.elf.dir/flags.make
 
-CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/adc.c
-CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\adc.c
-
-CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\adc.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\adc.c.i
-
-CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\adc.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\adc.c.s
-
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_DRV8303.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_DRV8303.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_DRV8303.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_DRV8303.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_DRV8303.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_DRV8303.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_DRV8303.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_DRV8303.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_DRV8303.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_adc.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_adc.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_adc.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_adc.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_adc.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_adc.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_adc.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_adc.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_key.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_key.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_key.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_key.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_key.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_key.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_key.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_key.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_led.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_led.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_led.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_led.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_led.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_led.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_led.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_led.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_led.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_motor_tim.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_motor_tim.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_motor_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_motor_tim.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_motor_tim.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_motor_tim.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_motor_tim.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_motor_tim.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_motor_tim.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_motor_tim.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_spwm.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_spwm.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_spwm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_spwm.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_spwm.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_spwm.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_spwm.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_spwm.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_spwm.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_spwm.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_svpwm.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_svpwm.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_svpwm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_svpwm.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_svpwm.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_svpwm.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_svpwm.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_svpwm.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_svpwm.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_svpwm.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_usart.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_usart.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_usart.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_usart.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_usart.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_usart.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\bsp_usart.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\bsp_usart.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\bsp_usart.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/freertos.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/freertos.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\freertos.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\freertos.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\freertos.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/freertos.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\freertos.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\freertos.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\freertos.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/gpio.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/gpio.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\gpio.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\gpio.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\gpio.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/gpio.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\gpio.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\gpio.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/main.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/main.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\main.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\main.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\main.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/main.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\main.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\main.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/spi.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/spi.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\spi.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\spi.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\spi.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/spi.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\spi.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\spi.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\spi.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/stm32f4xx_hal_msp.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/stm32f4xx_it.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/stm32f4xx_it.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\stm32f4xx_it.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\stm32f4xx_it.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\stm32f4xx_it.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\stm32f4xx_it.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/syscalls.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/syscalls.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\syscalls.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\syscalls.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\syscalls.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\syscalls.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\syscalls.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/sysmem.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/sysmem.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\sysmem.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\sysmem.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\sysmem.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/sysmem.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\sysmem.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\sysmem.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/system_stm32f4xx.c
+CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/system_stm32f4xx.c
 CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\system_stm32f4xx.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\system_stm32f4xx.c > CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\system_stm32f4xx.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\system_stm32f4xx.c -o CMakeFiles\BLDCF407.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Startup/startup_stm32f407igtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BLDCF407.elf.dir\Core\Startup\startup_stm32f407igtx.s.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Startup\startup_stm32f407igtx.s
+CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Startup/startup_stm32f407igtx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BLDCF407.elf.dir\Core\Startup\startup_stm32f407igtx.s.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Startup\startup_stm32f407igtx.s
 
 CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Startup\startup_stm32f407igtx.s > CMakeFiles\BLDCF407.elf.dir\Core\Startup\startup_stm32f407igtx.s.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Startup\startup_stm32f407igtx.s > CMakeFiles\BLDCF407.elf.dir\Core\Startup\startup_stm32f407igtx.s.i
 
 CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/BLDCF407.elf.dir/Core/Startup/startup_stm32f407igtx.s.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Startup\startup_stm32f407igtx.s -o CMakeFiles\BLDCF407.elf.dir\Core\Startup\startup_stm32f407igtx.s.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Startup\startup_stm32f407igtx.s -o CMakeFiles\BLDCF407.elf.dir\Core\Startup\startup_stm32f407igtx.s.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
+CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c > CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c -o CMakeFiles\BLDCF407.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/list.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/BLDCF407.elf.dir/flags.make
-CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/BLDCF407.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
 
 CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+	D:\Cmaketool\GNC-Tools-ARM-Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\BLDCF407.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
 # Object files for target BLDCF407.elf
 BLDCF407_elf_OBJECTS = \
-"CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj" \
 "CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj" \
 "CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj" \
 "CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj" \
@@ -838,7 +823,6 @@ BLDCF407_elf_OBJECTS = \
 # External object files for target BLDCF407.elf
 BLDCF407_elf_EXTERNAL_OBJECTS =
 
-BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj
 BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj
 BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj
 BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_key.c.obj
@@ -891,12 +875,12 @@ BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Sourc
 BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/build.make
 BLDCF407.elf: CMakeFiles/BLDCF407.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable BLDCF407.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking C executable BLDCF407.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BLDCF407.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.bin"
-	arm-none-eabi-objcopy -Oihex C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.elf C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.hex
-	arm-none-eabi-objcopy -Obinary C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.elf C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.bin"
+	arm-none-eabi-objcopy -Oihex C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.elf C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.hex
+	arm-none-eabi-objcopy -Obinary C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.elf C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/BLDCF407.elf.dir/build: BLDCF407.elf
@@ -907,6 +891,6 @@ CMakeFiles/BLDCF407.elf.dir/clean:
 .PHONY : CMakeFiles/BLDCF407.elf.dir/clean
 
 CMakeFiles/BLDCF407.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles\BLDCF407.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles\BLDCF407.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BLDCF407.elf.dir/depend
 

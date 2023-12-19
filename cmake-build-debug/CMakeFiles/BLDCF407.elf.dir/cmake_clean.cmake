@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "BLDCF407.elf"
   "BLDCF407.elf.manifest"
   "BLDCF407.elf.pdb"
-  "CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj"
-  "CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj.d"
   "CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj"
   "CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_DRV8303.c.obj.d"
   "CMakeFiles/BLDCF407.elf.dir/Core/Src/bsp_adc.c.obj"

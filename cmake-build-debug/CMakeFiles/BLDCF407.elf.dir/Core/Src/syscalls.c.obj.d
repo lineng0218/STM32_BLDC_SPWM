@@ -1,5 +1,5 @@
 CMakeFiles/BLDCF407.elf.dir/Core/Src/syscalls.c.obj: \
- C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\Core\Src\syscalls.c \
+ C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\Core\Src\syscalls.c \
  d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stat.h \
  d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
  d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \

@@ -67,15 +67,16 @@ typedef struct
 } PWM_Duty_CCR_Typedef;
 
 #define SQRT3FACTOR                   (uint16_t)0xDDB4    /** (16384 * 1.732051 * 2) sqrt(3) = 1.732051  定点Q15格式*/
-#define T_SQRT3                       (int32_t )((PWM_PERIOD_CYCLES * SQRT3FACTOR)/22938u)       /** T*Sqrt(3)*/
+#define T_SQRT3                       (int32_t )((PWM_PERIOD_CYCLES * SQRT3FACTOR)/16384u)       /** T*Sqrt(3)*/
 
 #define POLE_PAIRS                     2                           /** 极对数*/
-#define UREF                           (int16_t) (22938)           /** Uref矢量模长，决定电流（扭矩）*/
-#define ROTOR_FREQ                     26                          /** 转子频率 Hz  决定转速，15*60 = 900RPM*/
+#define UREF                           (int16_t) (16384)           /** Uref矢量模长，决定电流（扭矩）*/
+#define ROTOR_FREQ                     15                         /** 转子频率 Hz  决定转速，15*60 = 900RPM*/
 #define FREQ_RATIO                     ((float)(ROTOR_FREQ*POLE_PAIRS)/(float)PWM_FREQUENCY) /** 频率比=（转子频率*极对数）/载波频率*/
 
 uint16_t PWMC_SetPhaseVoltage( Volt_Typedef Valfa_beta );
 Volt_Typedef Get_V_alpha_Beta(int16_t Omega);
+void SVPWM_Mode(void );
 
 
 #endif //CPROJECT_BSP_SVPWM_H

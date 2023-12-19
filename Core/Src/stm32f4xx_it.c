@@ -29,6 +29,8 @@
 #include "bsp_led.h"
 #include "bsp_motor_tim.h"
 #include "bsp_usart.h"
+#include "bsp_adc.h"
+#include "bsp_svpwm.h"
 /** USER CODE END 0 */
 
 /* Private includes ----------------------------------------------------------*/
@@ -212,7 +214,8 @@ void USART_IRQHandler(void)
 }
 /* USER CODE END 2 */
 
-void MOTOR1_TIM_OC_IRQHANDLER ()
+extern ADC_HandleTypeDef MOTOR1_ADC_Handle;
+void MOTOR_ADC_IRQHandler()
 {
-    HAL_TIM_IRQHandler(&motor1_htimx_bldcm);
+    HAL_ADC_IRQHandler(&MOTOR1_ADC_Handle);
 }

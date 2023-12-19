@@ -66,8 +66,9 @@ static void TIM1_GPIO_Config(void)
     GPIO_InitStructure.Alternate = MOTOR1_OCPWM3_AF;
     HAL_GPIO_Init(MOTOR1_OCPWM3_GPIO_PORT, &GPIO_InitStructure);
 
-    HAL_NVIC_SetPriority(MOTOR1_TIM_IRQn,1,0);
-    HAL_NVIC_EnableIRQ(MOTOR1_TIM_IRQn);
+//    HAL_NVIC_SetPriority(MOTOR1_TIM_IRQn  ,0,0);
+//    HAL_NVIC_EnableIRQ(MOTOR1_TIM_IRQn  );
+
 }
 
 /**
@@ -92,17 +93,17 @@ static void TIM1_Mode_Config(void)
 
     /** 累计 TIM_Period个后产生一个更新或者中断 */
     /** 当定时器从0计数到999，即为1000次，为一个定时周期 */
-    motor1_htimx_bldcm.Init.Period = MOTOR1_PWM_PERIOD_COUNT;
+    motor1_htimx_bldcm.Init.Period = MOTOR1_PWM_PERIOD_COUNT-1;
 
     /** 高级控制定时器时钟源TIMxCLK = HCLK=216MHz */
     /** 设定定时器频率为=TIMxCLK/(TIM_Prescaler+1)=1MHz */
     motor1_htimx_bldcm.Init.Prescaler = MOTOR1_PWM_PRESCALER_COUNT;
 
     /** 采样时钟分频 */
-    motor1_htimx_bldcm.Init.ClockDivision=TIM_CLOCKDIVISION_DIV1;
+    motor1_htimx_bldcm.Init.ClockDivision=TIM_CLOCKDIVISION_DIV2;
 
     /** 计数方式 */
-    motor1_htimx_bldcm.Init.CounterMode=TIM_COUNTERMODE_CENTERALIGNED3;
+    motor1_htimx_bldcm.Init.CounterMode=TIM_COUNTERMODE_CENTERALIGNED1;
 
     /** 重复计数器 */
     motor1_htimx_bldcm.Init.RepetitionCounter = MOTOR1_TIM_REPETITIONCOUNTER;
@@ -139,7 +140,8 @@ static void TIM1_Mode_Config(void)
     HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_2);    /** 初始化通道 2 输出 PWM */
     HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_3);    /** 初始化通道 3 输出 PWM */
 
-    MOTOR1_TIM_OCInitStructure.Pulse = MOTOR1_PWM_PERIOD_COUNT-1;
+    MOTOR1_TIM_OCInitStructure.OCMode = TIM_OCMODE_PWM2;
+    MOTOR1_TIM_OCInitStructure.Pulse = MOTOR1_PWM_PERIOD_COUNT -50;
     HAL_TIM_PWM_ConfigChannel(&motor1_htimx_bldcm,&MOTOR1_TIM_OCInitStructure,TIM_CHANNEL_4);
 
     /** 开启定时器通道1输出PWM */
@@ -154,8 +156,8 @@ static void TIM1_Mode_Config(void)
     HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_3);
     HAL_TIMEx_PWMN_Start(&motor1_htimx_bldcm, TIM_CHANNEL_3);
 
-    /**CH4中断作为修改占空比时基 */
-    __HAL_TIM_ENABLE_IT(&motor1_htimx_bldcm,TIM_IT_CC4);
+    HAL_TIM_PWM_Start(&motor1_htimx_bldcm,TIM_CHANNEL_4);
+
 }
 
 
@@ -171,6 +173,5 @@ void HAL_TIM_OC_MspDeInit(TIM_HandleTypeDef* htim_base)
     if(htim_base->Instance== MOTOR1_TIM )
     {
         MOTOR1_TIM_RCC_CLK_DISABLE();
-
     }
 }

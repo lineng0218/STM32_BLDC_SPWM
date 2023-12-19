@@ -8,7 +8,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
-#include "adc.h"
 #include "spi.h"
 #include "gpio.h"
 #include "bsp_DRV8303.h"
@@ -18,11 +17,13 @@
 #include "bsp_usart.h"
 #include "bsp_spwm.h"
 #include "bsp_svpwm.h"
+#include "bsp_adc.h"
 
 //void MX_FREERTOS_Init(void);
 
 extern float  Volt_Freq;
 extern  int32_t  Accel;
+extern ADC_HandleTypeDef MOTOR1_ADC_Handle;
 
 
 /**半周期正弦波，幅值256，频率为1Hz */
@@ -84,12 +85,15 @@ int main(void)
     DRV8303_Init();
     /** 初始化按键G PIO */
     Key_GPIO_Config();
+     /**ADC初始化*/
+    ADC_Init();
     /** 初始化电机 */
     /** 初始化USART 配置模式为 115200 8-N-1，中断接收 */
 //    USART_Config();
+    /**TIM初始化*/
     TIMx_Configuration();
-
     HAL_Delay(1000);
+    __HAL_ADC_ENABLE_IT(&MOTOR1_ADC_Handle,ADC_IT_JEOC);
     while (1)
     {
 

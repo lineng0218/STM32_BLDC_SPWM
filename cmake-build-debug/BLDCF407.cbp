@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug"/>
+				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BLDCF407.elf">
-				<Option output="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug"/>
+				<Option output="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,14 +30,14 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include"/>
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -46,15 +46,15 @@
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BLDCF407.elf"/>
-					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 BLDCF407.elf"/>
+					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BLDCF407.elf/fast">
-				<Option output="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/BLDCF407.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug"/>
+				<Option output="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/BLDCF407.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,14 +65,14 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include"/>
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -81,478 +81,472 @@
 					<Add directory="d:\cmaketool\gnc-tools-arm-embedded\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BLDCF407.elf/fast"/>
-					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 BLDCF407.elf/fast"/>
+					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug"/>
+				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug"/>
+				<Option working_dir="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cmaketool/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/FreeRTOSConfig.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/FreeRTOSConfig.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/adc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_DRV8303.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_DRV8303.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_adc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_adc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_key.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_key.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_led.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_led.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_motor_tim.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_motor_tim.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_spwm.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_spwm.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_svpwm.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_svpwm.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/bsp_usart.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/bsp_usart.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/gpio.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/gpio.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/main.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/main.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/spi.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/spi.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Inc/stm32f4xx_it.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_DRV8303.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/adc.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_adc.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_DRV8303.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_key.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_adc.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_led.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_key.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_motor_tim.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_led.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_spwm.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_motor_tim.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_svpwm.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_spwm.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/bsp_usart.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_svpwm.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/freertos.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/bsp_usart.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/gpio.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/freertos.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/main.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/gpio.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/spi.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/main.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/spi.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/stm32f4xx_it.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/syscalls.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/stm32f4xx_it.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/sysmem.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/syscalls.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Src/system_stm32f4xx.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/sysmem.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Core/Startup/startup_stm32f407igtx.s">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Src/system_stm32f4xx.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Core/Startup/startup_stm32f407igtx.s">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/CMSIS/LICENSE.txt">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/STM32F407IGTX_FLASH.ld">
 			<Option target="BLDCF407.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
-			<Option target="BLDCF407.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/STM32F407IGTX_FLASH.ld">
-			<Option target="BLDCF407.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-spvwm/CMakeLists.txt">
+		<Unit filename="C:/Users/uoc11/Desktop/STM32F407/STM32F407-foc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

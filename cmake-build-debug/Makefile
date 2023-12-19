@@ -56,10 +56,10 @@ RM = "D:\Clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm
+CMAKE_SOURCE_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-spvwm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\uoc11\Desktop\STM32F407\STM32F407-foc\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,30 +127,6 @@ BLDCF407.elf: cmake_check_build_system
 BLDCF407.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/build
 .PHONY : BLDCF407.elf/fast
-
-Core/Src/adc.obj: Core/Src/adc.c.obj
-.PHONY : Core/Src/adc.obj
-
-# target to build an object file
-Core/Src/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.obj
-.PHONY : Core/Src/adc.c.obj
-
-Core/Src/adc.i: Core/Src/adc.c.i
-.PHONY : Core/Src/adc.i
-
-# target to preprocess a source file
-Core/Src/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.i
-.PHONY : Core/Src/adc.c.i
-
-Core/Src/adc.s: Core/Src/adc.c.s
-.PHONY : Core/Src/adc.s
-
-# target to generate assembly for a file
-Core/Src/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLDCF407.elf.dir\build.make CMakeFiles/BLDCF407.elf.dir/Core/Src/adc.c.s
-.PHONY : Core/Src/adc.c.s
 
 Core/Src/bsp_DRV8303.obj: Core/Src/bsp_DRV8303.c.obj
 .PHONY : Core/Src/bsp_DRV8303.obj
@@ -1345,9 +1321,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BLDCF407.elf
-	@echo ... Core/Src/adc.obj
-	@echo ... Core/Src/adc.i
-	@echo ... Core/Src/adc.s
 	@echo ... Core/Src/bsp_DRV8303.obj
 	@echo ... Core/Src/bsp_DRV8303.i
 	@echo ... Core/Src/bsp_DRV8303.s
